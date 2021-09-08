@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Se llevarán a cabo las pruebas del <Navbar/> Debe de mostrarse de manera correcta  1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark container-fluid"
+>
+  <a
+    className="navbar-brand"
+    onClick={[Function]}
+  >
+    <img
+      alt="Marvel"
+      src="./assets/heroes/marvel-icono.png"
+      style={
+        Object {
+          "maxWidth": 100,
+        }
+      }
+    />
+  </a>
+  <div
+    className="navbar-collapse"
+  >
+    <div
+      className="navbar-nav"
+    >
+      <a
+        aria-current={null}
+        className="nav-item nav-link"
+        onClick={[Function]}
+      >
+        <b>
+          Marvel
+        </b>
+      </a>
+      <a
+        aria-current={null}
+        className="nav-item nav-link"
+        onClick={[Function]}
+      >
+        <b>
+          DC
+        </b>
+      </a>
+      <a
+        aria-current={null}
+        className="nav-item nav-link"
+        onClick={[Function]}
+      >
+        <b>
+          Buscar
+        </b>
+      </a>
+    </div>
+  </div>
+  <div
+    className="d-flex collapse order-3 dual-collapse2"
+  >
+    <ul
+      className="navbar-nav ml-auto"
+    >
+      <span
+        className="nav-link text-info"
+      >
+        Camila
+      </span>
+      <button
+        className="nav-link nav-link btn btn-outline-dark"
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </ul>
+  </div>
+</nav>
+`;
